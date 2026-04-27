@@ -1,52 +1,180 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Godfroid Électricien bâtiment</title>
-<style>
-body{margin:0;font-family:Arial,sans-serif;background:#0b1f4d;color:white}
-header{background:#ff6a00;padding:30px;text-align:center}
-header h1{margin:0;font-size:40px}
-.hero{padding:60px 20px;text-align:center}
-.btn{display:inline-block;background:#25D366;color:white;padding:15px 25px;border-radius:10px;text-decoration:none;font-weight:bold;margin-top:20px}
-.services{background:#ff6a00;padding:40px 20px}
-.card{background:white;color:#0b1f4d;padding:20px;border-radius:12px;margin:10px}
-.contact{padding:40px 20px;text-align:center}
-footer{background:black;padding:20px;text-align:center}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Godfroid Électricien Bâtiment</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f5f5;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('affiche.jpg') center/cover;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    header p {
+      font-size: 20px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 30px;
+      background: #ff6600;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 60px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #001f5c;
+      font-size: 36px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .card h3 {
+      color: #ff6600;
+      margin-bottom: 15px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 15px;
+    }
+
+    .contact {
+      background: #001f5c;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .contact p {
+      margin: 15px 0;
+      font-size: 18px;
+    }
+
+    footer {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
 </head>
 <body>
 
-<header>
-<h1>Godfroid Électricien bâtiment</h1>
-<p>Service électrique professionnel et fiable</p>
-</header>
+  <header>
+    <h1>Godfroid Électricien Bâtiment</h1>
+    <p>
+      Service électrique professionnel garantissant sécurité, précision et fiabilité.
+    </p>
 
-<section class="hero">
-<h2>Installation et dépannage électrique</h2>
-<p>Nous offrons des services professionnels pour maisons et bâtiments.</p>
-<a class="btn" href="https://wa.me/2290153833082">Contact WhatsApp</a>
-</section>
+    <a class="btn" href="https://wa.me/2290153833082">
+      Contact WhatsApp
+    </a>
+  </header>
 
-<section class="services">
-<h2>Nos Services</h2>
-<div class="card">Installation électrique et câblage</div>
-<div class="card">Réparation de court-circuit</div>
-<div class="card">Installation d’éclairage</div>
-<div class="card">Service électrique d’urgence</div>
-</section>
+  <section>
+    <h2>Nos Services</h2>
 
-<section class="contact">
-<h2>Contact</h2>
-<p>📞 +229 01 53 83 30 82</p>
-<p>📧 godfroid119@gmail.com</p>
-<a class="btn" href="https://wa.me/2290153833082">Écrire sur WhatsApp</a>
-</section>
+    <div class="services">
+      <div class="card">
+        <h3>Installation électrique</h3>
+        <p>Installation complète pour maisons et bâtiments.</p>
+      </div>
 
-<footer>
-© 2025 Godfroid Électricien bâtiment
-</footer>
+      <div class="card">
+        <h3>Dépannage électrique</h3>
+        <p>Réparation rapide des pannes et courts-circuits.</p>
+      </div>
+
+      <div class="card">
+        <h3>Éclairage</h3>
+        <p>Installation et maintenance des systèmes d'éclairage.</p>
+      </div>
+
+      <div class="card">
+        <h3>Maintenance</h3>
+        <p>Entretien professionnel des installations électriques.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Nos Réalisations</h2>
+
+    <div class="gallery">
+      <img src="travail1.jpg" alt="Travaux électriques">
+      <img src="travail2.jpg" alt="Installation électrique">
+      <img src="travail3.jpg" alt="Équipe de travail">
+      <img src="travail4.jpg" alt="Outils électriques">
+      <img src="travail5.jpg" alt="Chantier électrique">
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+
+    <p>📞 Appel direct : +229 01 44 39 67 39
+    <p>💬 WhatsApp : +229 01 53 83 30 82</p></p>
+    <p>📧 godfroid119@gmail.com</p>
+
+    <a class="btn" href="tel:+2290144396739">
+      Contacter sur WhatsApp
+    </a>
+  </section>
+
+  <footer>
+    © 2025 Godfroid Électricien Bâtiment - Tous droits réservés.
+  </footer>
 
 </body>
-</html>
+  </html>
